@@ -28,7 +28,7 @@ SRC		=	ft_atoi.c		ft_bzero.c		ft_calloc.c\
 		
 OBJ		= 	${SRC:.c=.o}
 NAME	=	libft.a
-CC		=	gcc
+CC		=	cc
 FLAGS	=	-Wall -Werror -Wextra -std=c89
 HEADER	=	libft.h
 LIBC 	=	ar rc
